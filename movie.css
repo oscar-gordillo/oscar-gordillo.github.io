@@ -1,0 +1,62 @@
+body {
+    background-image: url("imagesmovie/background.png");    
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+#bannerimage {
+    width: 100%;
+    background-image: url("imagesmovie/bannerbg.png");    
+    background-position: center;
+    text-align: center;
+  }
+
+#mainTitle{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}  
+
+#mainContainer {
+	width: 60%;
+	margin: auto;
+	border: 2px solid #999999;
+	border-radius: 15px;
+	overflow: hidden;
+	background: #A2B964;
+}
+
+#leftPart {
+	width: 70% ;
+	background:  url("./images/background.png");
+}
+
+.table_columns {
+	column-count: 2;
+	padding: 5px;
+}
+
+#rightPart {
+	width: 30%;
+	float: right;
+	
+}
+
+#mainPartGrade {
+	background: url("./images/rbg.png");
+	height: 33%;
+}
+
+.boxing {
+	background: #E8DC9B;
+	padding: 5px;
+	border: 1px solid #999999;
+	border-radius: 15px;
+}
+
+#footer{
+	background: #A2B964;
+	clear: both;
+}
