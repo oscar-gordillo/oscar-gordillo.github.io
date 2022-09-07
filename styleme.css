@@ -8,3 +8,27 @@
 h2{
     text-align: center;
 }
+
+/*removing underline on links*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/*including drop caps*/
+p::first-letter {
+    font-size: 21px;    
+  }
+  p {
+    font-size: 14px;
+  }
+
+/*reversing the order*/
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
+}
