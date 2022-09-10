@@ -70,4 +70,4 @@ window.onload = function(){
     document.getElementById("turbo").onchange=fnTurboClick;
     document.getElementById("animation").onchange=fnAnimChange;
     document.getElementById("fontsize").onchange=fnSizeChange;
-}
+};
