@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Page1</title>
+    </head>
+    <body>
+        <form>
+            <label>Email address</label>
+            <input type="text" placeholder="Enter email"/>
+            <p>We'll never share your email with anyone else.</p>
+            <label>Password</label>
+            <input type="text" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$" title="Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter"/>
+
+            <label>URL</label>
+            <input type="text" pattern="https?://.+" placeholder="URL beginning with http:// or https://" title="URL beginning with http:// or https://"/>
+
+            <input type="checkbox">Check me out</input>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
