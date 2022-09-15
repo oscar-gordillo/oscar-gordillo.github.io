@@ -15,6 +15,16 @@ function clickCircle(){
     
 }
 
+function mouseenterCircle(){
+    let c = document.getElementById(this.id);
+    c.style.opacity=0.5;
+}
+
+function mouseoutCircle(){
+    let c = document.getElementById(this.id);
+    c.style.opacity=1;
+}
+
 function start(){
     let width = document.getElementById("idWidth").value;
     let g = document.getElementById("idGrowth").value;
@@ -47,7 +57,9 @@ function generateCircle(width, growth, interval){
     obj.style.top=generateNumber(0,300)+"px";
     obj.style.left=generateNumber(0,300)+"px";
     obj.style.backgroundColor = "rgb("+generateNumber(0, 255)+","+ generateNumber(0, 255) +","+ generateNumber(0, 255) + ")";
-    obj.onclick = clickCircle;
+    obj.onclick = clickCircle;    
+    obj.onmouseenter=mouseenterCircle;
+    obj.onmouseout=mouseoutCircle;
     document.getElementById("content").appendChild(obj);  
     
     
