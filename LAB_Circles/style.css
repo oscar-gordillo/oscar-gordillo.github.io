@@ -1,0 +1,27 @@
+#idCircle{
+    width: 100px;
+    max-width: 1000px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: rgb(255, 87, 51);
+}
+
+ .circle{
+    /*width: 100px;
+    height: 100px;*/
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;    
+} 
+
+input{
+    display:flex;
+}
+
+#content{
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
